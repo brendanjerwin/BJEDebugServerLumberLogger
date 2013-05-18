@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "DDLog.h"
 #import "DDTTYLogger.h"
-#import "BJEDebugserverLumberLogger.h"
+#import "BJEDebugServerLumberLogger.h"
 #import "LogFodder.h"   
 
 int main(int argc, const char * argv[])
