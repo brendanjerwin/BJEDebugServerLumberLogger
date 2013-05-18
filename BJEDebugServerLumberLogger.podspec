@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.authors     = { 'Brendan Erwin' => 'brendanjerwin@gmail.com' }
   s.homepage    = 'https://github.com/brendanjerwin/BJEDebugServerLumberLogger'
   s.source      = { :git => 'https://github.com/brendanjerwin/BJEDebugServerLumberLogger.git',
-                    :tag => '0.0.1' }
+                    :tag => s.version.to_s }
   s.license     = { :type => "MIT", :file => "LICENSE" }
 
   # Platform setup
