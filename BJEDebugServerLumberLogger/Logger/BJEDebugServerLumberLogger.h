@@ -10,7 +10,7 @@
 #import "DDLog.h"
 #import "GCDAsyncSocket.h"
 
-@interface BJEDebugserverLumberLogger : DDAbstractLogger <DDLogger, GCDAsyncSocketDelegate>
+@interface BJEDebugServerLumberLogger : DDAbstractLogger <DDLogger, GCDAsyncSocketDelegate>
 
 - (instancetype)init;
 - (instancetype)initWithHost:(NSString *)host port:(NSInteger)port;

@@ -6,14 +6,14 @@
 //  Copyright (c) 2013 Brendan J Erwin. All rights reserved.
 //
 
-#import "BJEDebugserverLumberLogger.h"
+#import "BJEDebugServerLumberLogger.h"
 
-@interface BJEDebugserverLumberLogger () {
+@interface BJEDebugServerLumberLogger () {
     NSMutableArray *_queue;
 }
 @end
 
-@implementation BJEDebugserverLumberLogger
+@implementation BJEDebugServerLumberLogger
 
 - (instancetype)init {
     return [self initWithHost:@"localhost" port:9000];

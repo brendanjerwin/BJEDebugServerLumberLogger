@@ -15,7 +15,7 @@
 int main(int argc, const char * argv[])
 {
     @autoreleasepool {
-        [DDLog addLogger:[[BJEDebugserverLumberLogger alloc] init]];
+        [DDLog addLogger:[[BJEDebugServerLumberLogger alloc] init]];
         [DDLog addLogger:[DDTTYLogger sharedInstance]];
 
         [[[LogFodder alloc] init] go];
