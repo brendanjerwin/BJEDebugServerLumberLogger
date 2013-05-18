@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		235FE1650027463EB70EE523 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC092AA955C46818523ECFD /* libPods.a */; };
+		24C6F1221747EE2200880665 /* BJEDebugserverLumberLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C6F1211747EE2200880665 /* BJEDebugserverLumberLogger.m */; };
+		24E26ED51747EB3200F5E9CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E26ED41747EB3200F5E9CF /* Foundation.framework */; };
+		24E26ED81747EB3200F5E9CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E26ED71747EB3200F5E9CF /* main.m */; };
+		24E26EDC1747EB3200F5E9CF /* BJEDebugServerLumberLogger.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24E26EDB1747EB3200F5E9CF /* BJEDebugServerLumberLogger.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		24E26ECF1747EB3200F5E9CF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				24E26EDC1747EB3200F5E9CF /* BJEDebugServerLumberLogger.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		24C6F1201747EE2200880665 /* BJEDebugserverLumberLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJEDebugserverLumberLogger.h; sourceTree = "<group>"; };
+		24C6F1211747EE2200880665 /* BJEDebugserverLumberLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJEDebugserverLumberLogger.m; sourceTree = "<group>"; };
+		24E26ED11747EB3200F5E9CF /* BJEDebugServerLumberLogger */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BJEDebugServerLumberLogger; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E26ED41747EB3200F5E9CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		24E26ED71747EB3200F5E9CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24E26EDA1747EB3200F5E9CF /* BJEDebugServerLumberLogger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BJEDebugServerLumberLogger-Prefix.pch"; sourceTree = "<group>"; };
+		24E26EDB1747EB3200F5E9CF /* BJEDebugServerLumberLogger.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BJEDebugServerLumberLogger.1; sourceTree = "<group>"; };
+		B394C9D7ADD34B4CB88E8AE6 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		DDC092AA955C46818523ECFD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24E26ECE1747EB3200F5E9CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E26ED51747EB3200F5E9CF /* Foundation.framework in Frameworks */,
+				235FE1650027463EB70EE523 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24C6F11F1747EE0000880665 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				24C6F1201747EE2200880665 /* BJEDebugserverLumberLogger.h */,
+				24C6F1211747EE2200880665 /* BJEDebugserverLumberLogger.m */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		24E26EC81747EB3200F5E9CF = {
+			isa = PBXGroup;
+			children = (
+				24C6F11F1747EE0000880665 /* Logger */,
+				24E26ED61747EB3200F5E9CF /* BJEDebugServerLumberLogger */,
+				24E26ED31747EB3200F5E9CF /* Frameworks */,
+				24E26ED21747EB3200F5E9CF /* Products */,
+				B394C9D7ADD34B4CB88E8AE6 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		24E26ED21747EB3200F5E9CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24E26ED11747EB3200F5E9CF /* BJEDebugServerLumberLogger */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24E26ED31747EB3200F5E9CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24E26ED41747EB3200F5E9CF /* Foundation.framework */,
+				DDC092AA955C46818523ECFD /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24E26ED61747EB3200F5E9CF /* BJEDebugServerLumberLogger */ = {
+			isa = PBXGroup;
+			children = (
+				24E26ED71747EB3200F5E9CF /* main.m */,
+				24E26EDB1747EB3200F5E9CF /* BJEDebugServerLumberLogger.1 */,
+				24E26ED91747EB3200F5E9CF /* Supporting Files */,
+			);
+			path = BJEDebugServerLumberLogger;
+			sourceTree = "<group>";
+		};
+		24E26ED91747EB3200F5E9CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24E26EDA1747EB3200F5E9CF /* BJEDebugServerLumberLogger-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24E26ED01747EB3200F5E9CF /* BJEDebugServerLumberLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24E26EDF1747EB3200F5E9CF /* Build configuration list for PBXNativeTarget "BJEDebugServerLumberLogger" */;
+			buildPhases = (
+				C81AEBBB1B6741BEA0B2536D /* Check Pods Manifest.lock */,
+				24E26ECD1747EB3200F5E9CF /* Sources */,
+				24E26ECE1747EB3200F5E9CF /* Frameworks */,
+				24E26ECF1747EB3200F5E9CF /* CopyFiles */,
+				2C587BAAB3F340059F55BEBC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BJEDebugServerLumberLogger;
+			productName = BJEDebugServerLumberLogger;
+			productReference = 24E26ED11747EB3200F5E9CF /* BJEDebugServerLumberLogger */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24E26EC91747EB3200F5E9CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Brendan J Erwin";
+			};
+			buildConfigurationList = 24E26ECC1747EB3200F5E9CF /* Build configuration list for PBXProject "BJEDebugServerLumberLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 24E26EC81747EB3200F5E9CF;
+			productRefGroup = 24E26ED21747EB3200F5E9CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24E26ED01747EB3200F5E9CF /* BJEDebugServerLumberLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C587BAAB3F340059F55BEBC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		C81AEBBB1B6741BEA0B2536D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24E26ECD1747EB3200F5E9CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E26ED81747EB3200F5E9CF /* main.m in Sources */,
+				24C6F1221747EE2200880665 /* BJEDebugserverLumberLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		24E26EDD1747EB3200F5E9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		24E26EDE1747EB3200F5E9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		24E26EE01747EB3200F5E9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B394C9D7ADD34B4CB88E8AE6 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BJEDebugServerLumberLogger/BJEDebugServerLumberLogger-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		24E26EE11747EB3200F5E9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B394C9D7ADD34B4CB88E8AE6 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BJEDebugServerLumberLogger/BJEDebugServerLumberLogger-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24E26ECC1747EB3200F5E9CF /* Build configuration list for PBXProject "BJEDebugServerLumberLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E26EDD1747EB3200F5E9CF /* Debug */,
+				24E26EDE1747EB3200F5E9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24E26EDF1747EB3200F5E9CF /* Build configuration list for PBXNativeTarget "BJEDebugServerLumberLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E26EE01747EB3200F5E9CF /* Debug */,
+				24E26EE11747EB3200F5E9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24E26EC91747EB3200F5E9CF /* Project object */;
+}
