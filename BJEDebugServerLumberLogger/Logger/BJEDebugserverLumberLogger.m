@@ -65,7 +65,7 @@
 - (void)logMessage:(DDLogMessage *)logMessage {
     NSString *logMsg = logMessage->logMsg;
 
-//    if ([self logFormatter]) logMsg = [[self logFormatter] formatLogMessage:logMessage];
+    if (formatter) logMsg = [formatter formatLogMessage:logMessage];
 
     if (logMsg) {
         NSDictionary *info = @{
