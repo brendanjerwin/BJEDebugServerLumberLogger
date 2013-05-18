@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		235FE1650027463EB70EE523 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC092AA955C46818523ECFD /* libPods.a */; };
 		24C6F1221747EE2200880665 /* BJEDebugserverLumberLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C6F1211747EE2200880665 /* BJEDebugserverLumberLogger.m */; };
+		24C6F1251747FD1E00880665 /* LogFodder.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C6F1241747FD1E00880665 /* LogFodder.m */; };
+		24C6F1271747FDF100880665 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C6F1261747FDF100880665 /* AppKit.framework */; };
 		24E26ED51747EB3200F5E9CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E26ED41747EB3200F5E9CF /* Foundation.framework */; };
 		24E26ED81747EB3200F5E9CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E26ED71747EB3200F5E9CF /* main.m */; };
 		24E26EDC1747EB3200F5E9CF /* BJEDebugServerLumberLogger.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24E26EDB1747EB3200F5E9CF /* BJEDebugServerLumberLogger.1 */; };
@@ -30,6 +32,9 @@
 /* Begin PBXFileReference section */
 		24C6F1201747EE2200880665 /* BJEDebugserverLumberLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJEDebugserverLumberLogger.h; sourceTree = "<group>"; };
 		24C6F1211747EE2200880665 /* BJEDebugserverLumberLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJEDebugserverLumberLogger.m; sourceTree = "<group>"; };
+		24C6F1231747FD1E00880665 /* LogFodder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogFodder.h; sourceTree = "<group>"; };
+		24C6F1241747FD1E00880665 /* LogFodder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogFodder.m; sourceTree = "<group>"; };
+		24C6F1261747FDF100880665 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		24E26ED11747EB3200F5E9CF /* BJEDebugServerLumberLogger */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BJEDebugServerLumberLogger; sourceTree = BUILT_PRODUCTS_DIR; };
 		24E26ED41747EB3200F5E9CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		24E26ED71747EB3200F5E9CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,6 +50,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24E26ED51747EB3200F5E9CF /* Foundation.framework in Frameworks */,
+				24C6F1271747FDF100880665 /* AppKit.framework in Frameworks */,
 				235FE1650027463EB70EE523 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,6 +70,7 @@
 		24E26EC81747EB3200F5E9CF = {
 			isa = PBXGroup;
 			children = (
+				24C6F1261747FDF100880665 /* AppKit.framework */,
 				24C6F11F1747EE0000880665 /* Logger */,
 				24E26ED61747EB3200F5E9CF /* BJEDebugServerLumberLogger */,
 				24E26ED31747EB3200F5E9CF /* Frameworks */,
@@ -95,6 +102,8 @@
 				24E26ED71747EB3200F5E9CF /* main.m */,
 				24E26EDB1747EB3200F5E9CF /* BJEDebugServerLumberLogger.1 */,
 				24E26ED91747EB3200F5E9CF /* Supporting Files */,
+				24C6F1231747FD1E00880665 /* LogFodder.h */,
+				24C6F1241747FD1E00880665 /* LogFodder.m */,
 			);
 			path = BJEDebugServerLumberLogger;
 			sourceTree = "<group>";
@@ -193,6 +202,7 @@
 			files = (
 				24E26ED81747EB3200F5E9CF /* main.m in Sources */,
 				24C6F1221747EE2200880665 /* BJEDebugserverLumberLogger.m in Sources */,
+				24C6F1251747FD1E00880665 /* LogFodder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

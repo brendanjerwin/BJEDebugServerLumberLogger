@@ -7,15 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DDLog.h"
+#import "DDTTYLogger.h"
+#import "BJEDebugserverLumberLogger.h"
+#import "LogFodder.h"   
 
 int main(int argc, const char * argv[])
 {
-
     @autoreleasepool {
-        
-        // insert code here...
-        NSLog(@"Hello, World!");
-        
+        [DDLog addLogger:[[BJEDebugserverLumberLogger alloc] init]];
+        [DDLog addLogger:[DDTTYLogger sharedInstance]];
+
+        [[[LogFodder alloc] init] go];
     }
     return 0;
 }

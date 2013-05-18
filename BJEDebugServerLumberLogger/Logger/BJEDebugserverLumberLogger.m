@@ -33,8 +33,10 @@
 
 - (void)didAddLogger {
     NSError *error = nil;
-    if (![_asyncSocket connectToHost:self.host onPort:self.port error:&error]) {
-        NSLog(@"BJEDebugserverLumberLogger - error connecting to %@ on port %d: %@", self.host, self.port, error);
+    if ([_asyncSocket connectToHost:self.host onPort:self.port error:&error]) {
+        [self sendClear];
+    } else {
+        NSLog(@"BJEDebugserverLumberLogger - error connecting to %@ on port %ld: %@", self.host, (long)self.port, error);
     }
 }
 
@@ -42,20 +44,38 @@
     [_asyncSocket disconnectAfterReadingAndWriting];
 }
 
+- (NSInteger)mapLogLevel:(NSInteger)input{
+// The log levels for debugserver
+//    LEVEL_NONE = 0
+//    LEVEL_INFO = 1
+//    LEVEL_WARNING = 2
+//    LEVEL_ERROR = 3
+
+    if ((input & LOG_FLAG_ERROR) == LOG_FLAG_ERROR) return 3;
+    if ((input & LOG_FLAG_WARN) == LOG_FLAG_WARN) return 2;
+    if ((input & LOG_FLAG_INFO) == LOG_FLAG_INFO) return 1;
+    return 0;
+}
+
+- (void)sendClear
+{
+    [self writeDictionary:@{@"method": @1}];
+}
+
 - (void)logMessage:(DDLogMessage *)logMessage {
     NSString *logMsg = logMessage->logMsg;
 
-    if (logFormatter) logMsg = [logFormatter formatLogMessage:logMessage];
+//    if ([self logFormatter]) logMsg = [[self logFormatter] formatLogMessage:logMessage];
 
     if (logMsg) {
         NSDictionary *info = @{
                            @"method": @2,
                            @"content": @{
-                                   @"level": @(logMessage->logLevel),
-                                   @"message": message
+                                   @"level": @([self mapLogLevel:logMessage->logFlag]),
+                                   @"message": logMsg
                                    }
                            };
-        
+
         [self writeDictionary:info];
     }
 }
