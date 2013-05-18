@@ -1,8 +1,6 @@
 BJEDebugServerLumberLogger
 ==========================
 
-**NOT YET WORKING**
-
 A CocoaLumberJack Logger which logs messages to [debugserver](http://rubygems.org/gems/debugserver).
 
 View your debug logs in iTerm or Terminal.app and get out of that noisy, hard-to-read, xcode console.
@@ -11,8 +9,18 @@ View your debug logs in iTerm or Terminal.app and get out of that noisy, hard-to
 ## Usage
 
 ### Install with CocoaPods
+```ruby
+  pod 'BJEDebugServerLumberLogger', :git => 'https://github.com/brendanjerwin/BJEDebugServerLumberLogger.git'
+```
 
 ### Configure CocoaLumberJack
+```objective-c
+#import "BJEDebugServerLumberLogger.h"
+
+//stuff
+
+  [DDLog addLogger:[[BJEDebugServerLumberLogger alloc] init]];
+```
 
 ### Install debugserver
 
