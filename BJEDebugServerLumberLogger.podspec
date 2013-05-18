@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '4.3'
   s.osx.deployment_target = '10.7'
 
-  s.source_files = ''
-  s.public_header_files = '/*.h'
+  s.source_files = 'BJEDebugServerLumberLogger/Logger/*'
+  s.public_header_files = 'BJEDebugServerLumberLogger/Logger/*.h'
 
   s.dependency 'CocoaAsyncSocket', '~> 0.0.1'
   s.dependency 'CocoaLumberjack', '~> 1.6.0'
