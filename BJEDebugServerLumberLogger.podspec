@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name        = 'BJEDebugServerLumberLogger'
   s.version     = '1.0'
-  s.summary     = ''
+  s.summary     = 'View your debug logs in iTerm or Terminal.app and get out of that noisy, hard-to-read, xcode console.'
   s.authors     = { 'Brendan Erwin' => 'brendanjerwin@gmail.com' }
   s.homepage    = 'https://github.com/romaonthego/REDebugClient'
   s.source      = { :git => 'https://github.com/brendanjerwin/BJEDebugServerLumberLogger.git',
