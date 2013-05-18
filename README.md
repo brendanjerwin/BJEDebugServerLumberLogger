@@ -30,6 +30,10 @@ Starting debug server on localhost:9000...
 ### Run!
 
 
+## Thanks
+
+This is really just a repackaging of [REDebugClient](https://github.com/romaonthego/REDebugClient) for use with CocoaLumberJack.
+Thanks to both projects for making it so easy to get out of the xcode console!
 
 ## The MIT License (MIT)
 
