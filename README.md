@@ -36,7 +36,7 @@ Starting debug server on localhost:9000...
 ```
 
 ### Run!
-
+![Screenshot](https://github.com/brendanjerwin/BJEDebugServerLumberLogger/raw/master/screen_shot.png "Screenshot")
 
 ## Thanks
 
