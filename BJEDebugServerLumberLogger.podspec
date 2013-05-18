@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name        = 'BJEDebugServerLumberLogger'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.summary     = 'View your debug logs in iTerm or Terminal.app and get out of that noisy, hard-to-read, xcode console.'
   s.authors     = { 'Brendan Erwin' => 'brendanjerwin@gmail.com' }
   s.homepage    = 'https://github.com/brendanjerwin/BJEDebugServerLumberLogger'
