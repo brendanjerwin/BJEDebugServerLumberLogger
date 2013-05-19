@@ -10,7 +10,7 @@ View your debug logs in iTerm or Terminal.app and get out of that noisy, hard-to
 
 ### Install with CocoaPods
 ```ruby
-  pod 'BJEDebugServerLumberLogger', :git => 'https://github.com/brendanjerwin/BJEDebugServerLumberLogger.git'
+  pod 'BJEDebugServerLumberLogger'
 ```
 
 ### Configure CocoaLumberJack
