@@ -38,6 +38,9 @@ Starting debug server on localhost:9000...
 ### Run!
 ![Screenshot](https://github.com/brendanjerwin/BJEDebugServerLumberLogger/raw/master/screen_shot.png "Screenshot")
 
+## This is how I use it:
+![Usage](https://github.com/brendanjerwin/BJEDebugServerLumberLogger/raw/master/usage.png "Usage")
+
 ## Thanks
 
 This is really inspired and informed by [REDebugClient](https://github.com/romaonthego/REDebugClient).
